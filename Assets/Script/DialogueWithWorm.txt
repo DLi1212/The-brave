@@ -1,0 +1,12 @@
+A
+Who are you?
+B
+Are you the guardian of the devil?
+A
+Yes, what are you doing here?
+B
+I want the key piece.
+A
+Okay, if you can get through this labyrinth in under three minutes, I'll give it to you.
+B
+Deal!

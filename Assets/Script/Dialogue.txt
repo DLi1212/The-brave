@@ -1,0 +1,24 @@
+A
+Who are you? Don't come here!!!
+B
+Don't be scared. I'm a homeless knight. I just happened to pass.
+A
+Oh, I see. What can I do for you?
+B
+Sir, what occurred here, why has the environment grown so strange and where did the villagers go?
+A
+The war in this land had just ended not long ago. However, the devil's soul controlled the warrior who rescued us, and the villagers were forced to work for it. I have a disease, so I escaped.
+B
+I think I can help you fight the devil.
+A
+The devil is terrible. Don't die in vain.
+B
+It doesn't matter. I've decided.
+A
+If you want to help us, there are many monsters in the forest. Fighting them helps improve your ability. When you think you can defeat the devil, you need to...
+A
+obtain four pieces, keys to the devil's field, in the four corners of this island. Remember...
+A
+the Devil's Field gateway is in the forest behind the village. I'll provide you with some necessities here.
+B
+Ok, I got it. I'm leaving now.
