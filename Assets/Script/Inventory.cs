@@ -79,16 +79,7 @@ public class Inventory : MonoBehaviour
         }
             for (int i = 0; i < allSlots; i++)
         {
-            if (slot[i].GetComponent<Slot>().description == "keyPieces")
-            {
-                itemObject.GetComponent<Item>().pickedUp = true;
-                slot[i].GetComponent<Slot>().itemHeld = itemHeld + slot[i].GetComponent<Slot>().itemHeld;
-                itemObject.SetActive(false);
-                slot[i].GetComponent<Slot>().UpdateSlot();
-                slot[i].GetComponent<Slot>().empty = false;
-                return;
-            }
-            else if (slot[i].GetComponent<Slot>().empty)
+            if (slot[i].GetComponent<Slot>().empty)
             {
                 itemObject.GetComponent<Item>().pickedUp = true;
                 slot[i].GetComponent<Slot>().icon = itemIcon;
@@ -103,7 +94,7 @@ public class Inventory : MonoBehaviour
                 slot[i].GetComponent<Slot>().empty = false;
                 return;
             }
-            if (slot[i].GetComponent<Slot>().description == itemDescription)
+            else if (slot[i].GetComponent<Slot>().description == itemDescription)
             {
                 itemObject.GetComponent<Item>().pickedUp = true;
                 slot[i].GetComponent<Slot>().itemHeld = itemHeld + slot[i].GetComponent<Slot>().itemHeld;
